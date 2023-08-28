@@ -61,8 +61,14 @@ with the following:
 ```json
 "build": "tailwindcss -i ./dist/main.css -o ./src/output/style.css -w"
 ```
+ ### 6. Start Development Server
 
-### 6. Create an HTML File
+To start the development server and see the changes in real-time, run:
+
+```bash
+npm run build
+```
+### 7. Create an HTML File
 
 Inside the `src` folder, create a new file named `index.html` and paste the following code:
 
@@ -83,14 +89,6 @@ Inside the `src` folder, create a new file named `index.html` and paste the foll
 </body>
 
 </html>
-```
-
-### 7. Start Development Server
-
-To start the development server and see the changes in real-time, run:
-
-```bash
-npm run build
 ```
 
 Now, open the `index.html` in a browser, and you should see the styled "Hello World" heading.
