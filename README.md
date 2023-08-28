@@ -69,16 +69,19 @@ Inside the `src` folder, create a new file named `index.html` and paste the foll
 ```html
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="src/output/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="output/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
+    <h1 class="text-3xl font-bold underline">
+        Hello world!
+    </h1>
 </body>
+
 </html>
 ```
 
@@ -87,7 +90,7 @@ Inside the `src` folder, create a new file named `index.html` and paste the foll
 To start the development server and see the changes in real-time, run:
 
 ```bash
-npm run dev
+npm run build
 ```
 
 Now, open the `index.html` in a browser, and you should see the styled "Hello World" heading.
