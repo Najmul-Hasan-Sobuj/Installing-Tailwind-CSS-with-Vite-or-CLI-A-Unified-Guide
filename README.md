@@ -10,7 +10,7 @@ Ensure you have Node.js and npm installed on your machine.
 ### 1. Initialize a New Project
 Initialize a new npm project with the following command:
 ```bash
-tailwindcss init -y
+npm init -y
 ```
 This command creates a `package.json` file.
 
